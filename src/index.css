@@ -1,0 +1,73 @@
+
+body{
+  /* background-color: rgb(78, 151, 10); */
+  /* background: linear-gradient(135deg, #fc456a, #4160fb) */
+  background-image: url('../public/images/pexels-bich-tran-669996.jpg');
+  background-size: cover;
+  align-items: center;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  /* background-image: url('../public/images/pexels-daniel-putzer-633409.jpg');
+  background-size: cover; */
+  height: 450px;
+  width: 450px;
+  /* background-color: rgb(245, 229, 8); */
+  background: linear-gradient(135deg, #d4c9cb, #5e6cb1);
+  margin: auto;
+  padding: 10px;
+  box-shadow: 4px 4px 12px 3px rgb(198, 201, 31);
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.doc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5 rem;
+  align-items: center;
+
+}
+
+.btn {
+  background-color: red;
+  color: yellow;
+  border-style:none;
+  height: 30px;
+  width: 100%;
+  font-size: larger;
+  box-shadow: 4px 4px 12px 3px rgb(0, 38, 255);
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 100px;
+
+}
+
+.photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* .fitting {
+  margin: 0px;
+  padding: 0px;
+  overflow: ;
+} */
